@@ -1,0 +1,24 @@
+{
+  "name": "desafio0704",
+  "version": "1.0.0",
+  "description": "transacciones bancarias usando cursores y transactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Darío Valenzuela",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "cursor",
+    "transaction",
+    "node",
+    "pg"
+  ]
+}
